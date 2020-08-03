@@ -18,14 +18,6 @@ Route::get('/', function () {
 });
 
 Route::resource('products', 'ProductController');
-
-
-// Route::get('/products', function () {
-//     return view('product.list');
-// });
-
-// Route::get('/products/create', function () {
-//     return view('products.create');
-// });
+Route::resource('customers', 'CustomerController');
 
 

@@ -4,7 +4,7 @@
 <div class="row">
     <div class="col-sm-12">
         <h1 class="display-3 mb-3">Sản phẩm</h1>
-        <a href="{{ route('products.create')}}" class="btn btn-primary">Thêm sản phẩm</a>
+        <a href="{{ route('products.create')}}" class="btn btn-primary mg">Thêm sản phẩm</a>
         <table class="table table-striped">
             <thead>
                 <tr>
